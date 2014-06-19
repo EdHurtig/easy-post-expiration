@@ -1,0 +1,56 @@
+#timestampdiv_expire {
+	padding-top: 5px;
+	line-height: 23px;
+}
+
+#timestampdiv_expire p {
+	margin: 8px 0 6px;
+}
+
+#timestampdiv_expire input {
+	border-width: 1px;
+	border-style: solid;
+}
+
+#timestampdiv_expire select {
+	height: 21px;
+	line-height: 14px;
+	padding: 0;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+#aa_expire, #jj_expire, #hh_expire, #mn_expire {
+	padding: 1px;
+	font-size: 12px;
+}
+
+#jj_expire, #hh_expire, #mn_expire {
+	width: 2em;
+}
+
+#aa_expire {
+	width: 3.4em;
+}
+
+.curtime #timestamp_expire:before {
+	content: '\f145';
+	top: -1px;
+}
+
+.curtime #timestamp_expire:before {
+	font: normal 20px/1 'dashicons';
+	speak: none;
+	display: inline-block;
+	padding: 0 2px 0 0;
+	top: 0;
+	left: -1px;
+	position: relative;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+	color: #888;
+}
+
+
